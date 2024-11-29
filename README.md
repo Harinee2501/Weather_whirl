@@ -67,7 +67,7 @@ Location-based and search-based weather data.
 🚧 Deployment pending (planned on platforms like Vercel or Netlify).
 
 ## 💻 Tech Stack
-Frontend
+-> Frontend
 
 React.js: For building dynamic, interactive user interfaces.
 
@@ -75,7 +75,7 @@ CSS: Styling and responsiveness for a visually appealing app.
 
 HTML5 Video: To display dynamic weather-themed videos.
 
-APIs
+-> APIs
 
 OpenWeatherMap API: For fetching weather forecasts.
 
@@ -83,7 +83,7 @@ VisualCrossing API: As a secondary weather data source.
 
 Geolocation API: For detecting user location automatically.
 
-Libraries
+-> Libraries
 
 Axios: For efficient API requests.
 
@@ -91,7 +91,7 @@ React Router: Smooth navigation between sections.
 
 React Icons: Enhances UI aesthetics with weather-related icons.
 
-Dynamic Media Handling
+-> Dynamic Media Handling
 
 Weather-themed video collection (e.g., sunny, rainy, snowy).
 
