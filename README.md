@@ -91,11 +91,20 @@ React Router: Smooth navigation between sections.
 
 React Icons: Enhances UI aesthetics with weather-related icons.
 
+-> Backend Framework
+
+Node.js
+
 -> Dynamic Media Handling
 
 Weather-themed video collection (e.g., sunny, rainy, snowy).
 
 Backgrounds updated dynamically using React's useEffect for smooth transitions.
+
+## Challenges Faced:
+
+Finding the Right API:
+One of the major challenges was selecting a weather API that provided the most accurate and reliable results. After evaluating several options, I settled on APIs like OpenWeatherMap and VisualCrossing, which provided comprehensive weather data. Ensuring data accuracy was crucial to deliver reliable forecasts to users.
 
 ## 🔮 Future Scope
 
