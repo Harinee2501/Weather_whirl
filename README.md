@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# WEATHER WHIRL 
+## Problem Statement
+People often need quick and accurate weather updates for their location or places they plan to visit. Many existing weather apps lack engaging visuals or intuitive design, and they don't dynamically adapt to weather conditions to provide an immersive user experience. WeatherWhirl solves this by providing real-time weather updates, forecasts, and background visuals that reflect the current weather conditions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Idea
+WeatherWhirl is a React-based weather application that offers:
 
-## Available Scripts
+Today's Weather: Displays the current weather conditions at the user’s location.
+Hourly Forecast: Provides a detailed forecast for the next few hours.
+Weekly Forecast: Displays weather trends for the week ahead.
+Search by City/ZIP: Allows users to search weather conditions for specific locations.
+Dynamic Backgrounds: Changes the app's background video dynamically to reflect the weather conditions (e.g., sunny, rainy, cloudy).
 
-In the project directory, you can run:
+## Approach
+Data Fetching:
+Use weather APIs like OpenWeatherMap and VisualCrossing to fetch real-time weather data.
+Utilize the Geolocation API to detect the user’s location for location-based weather updates.
 
-### `npm start`
+Dynamic Backgrounds:
+Use pre-recorded weather videos (e.g., sunny, rainy, snowy) and switch the background dynamically based on the fetched weather conditions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Modular Design:
+Separate components for different functionalities such as search, current weather, hourly forecast, and weekly forecast.
+Error Handling:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Implement robust error handling for API calls and location services to ensure seamless user experience.
+User Experience:
 
-### `npm test`
+Include a dimmed overlay for readability.
+Ensure responsive design for mobile and desktop users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Progress / Status
+✅ Completed all four functionalities: today's weather, hourly forecast, weekly forecast, and location search.
+✅ Successfully integrated APIs for data fetching.
+✅ Background videos change dynamically based on weather conditions.
+🚧 Deployment is pending.
 
-### `npm run build`
+## Tech Stack
+Frontend:
+React.js: For building the user interface and managing component states.
+CSS: For styling components and making the app visually appealing.
+HTML5 Video: For displaying dynamic weather background videos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+APIs:
+OpenWeatherMap API: For fetching current weather, hourly forecasts, and weekly forecasts.
+VisualCrossing API: As an alternative data source for weather information.
+Geolocation API: To get the user's current location.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Libraries:
+Axios: To handle API requests and fetch data efficiently.
+React Router: For navigation between different sections (e.g., hourly forecast, weekly forecast).
+React Icons: To display weather-related icons and improve UI aesthetics.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dynamic Media Handling:
+Video Backgrounds:
+Collection of short weather-themed videos (sunny, rainy, cloudy, snow).
+Dynamically loaded based on the API's weather condition codes.
+Managed with React's useEffect for smooth transitions.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Scope
+Deployment: Host the app on platforms like Vercel or Netlify to make it accessible.
+Enhancements:
+Add weather alerts for severe conditions.
+Include detailed insights like air quality, UV index, and pollen levels.
+Integrate voice search for hands-free operation.
+Mobile App: Extend functionality to a mobile app for Android and iOS.
+Dark Mode: Add dark mode support for better usability at night.
+Global Accessibility: Translate the app into multiple languages for wider reach.
