@@ -13,11 +13,16 @@ A user-centric design for an engaging and intuitive experience.
 WeatherWhirl is a React-based weather application offering:
 Features:
 🌤 Today's Weather: Current weather conditions for the user's location.
+
 ⏱ Hourly Forecast: Detailed forecast for the next few hours.
+
 📅 Weekly Forecast: Weather trends for the upcoming week.
+
 📍 Location Search: Check weather conditions for specific cities or ZIP codes.
+
 🎥 Dynamic Backgrounds: Weather-themed videos that change based on the current weather (e.g., sunny, rainy, snowy).
-⚙️ Approach
+
+## ⚙️ Approach
 🌐 Data Fetching
 Use OpenWeatherMap and VisualCrossing APIs for real-time weather updates.
 Detect user location via the Geolocation API for personalized weather data.
